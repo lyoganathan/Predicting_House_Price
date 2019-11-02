@@ -50,7 +50,9 @@ var df4 = df3.filter(s"LotArea > 100 and LotArea < 20000");
 ```
 
 Now when we plot it again the data looks much better:
-![](imgs/scatter.PNG)
+
+![](imgs/scatter.png)
+
 We can also look at the distribution of each variable:
 ```
 var f = Figure();
@@ -83,6 +85,6 @@ p += scatter(location,price,size2.apply);
 
 ```
 
-![](imgs/loc_price.PNG)
+![](imgs/loc_price.png)
 
 
