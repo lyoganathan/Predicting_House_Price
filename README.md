@@ -53,7 +53,7 @@ Now when we plot it again the data looks much better:
 
 ![](imgs/scatter.png)
 
-We can also look at the distribution of each variable:
+We can also look at the distribution of each variable. We see that both variables are right skewed.
 ```
 var f = Figure();
 var p = f.subplot(0);
